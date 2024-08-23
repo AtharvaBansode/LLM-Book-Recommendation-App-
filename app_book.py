@@ -4,9 +4,10 @@ import os
 
 os.environ['API_KEY'] = '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'
 
-
+# Set up the page configuration
 st.set_page_config(page_title='Book Recommendation App')
 
+# Custom CSS for styling
 page_bg_img = '''
 <style>
 h1 {
